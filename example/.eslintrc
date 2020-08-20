@@ -1,0 +1,3 @@
+{
+  "extends": ["@dbenfouzari/react-native/recommended"]
+}
