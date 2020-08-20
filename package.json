@@ -1,6 +1,6 @@
 {
   "name": "@dbenfouzari/eslint-config-react-native",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React-Native ESLint config",
   "main": "lib/index.js",
   "repository": {
@@ -30,9 +30,5 @@
     "@babel/core": "7.11.1",
     "@babel/preset-env": "7.11.0"
   },
-  "browserslist": "> 0.25%, not dead",
-  "directories": {
-    "example": "example",
-    "lib": "lib"
-  }
+  "browserslist": "> 0.25%, not dead"
 }
