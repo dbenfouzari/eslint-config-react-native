@@ -1,2 +1,4 @@
-src/
+index.js
+recommended.js
 example/
+.babelrc

@@ -94,7 +94,7 @@
     to-fast-properties "^2.0.0"
 
 "@dbenfouzari/eslint-config-react-native@file:..":
-  version "1.0.0"
+  version "1.0.2"
   dependencies:
     "@react-native-community/eslint-config" "2.0.0"
     eslint-plugin-import "2.22.0"
