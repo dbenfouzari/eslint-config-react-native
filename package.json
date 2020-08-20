@@ -6,7 +6,6 @@
   "repository": "https://github.com/dbenfouzari/eslint-config-react-native",
   "author": "Donovan BENFOUZARI <d.benfouzari@gmail.com>",
   "license": "MIT",
-  "private": true,
   "bugs": {
     "url": "https://github.com/dbenfouzari/eslint-config-react-native/issues"
   },
