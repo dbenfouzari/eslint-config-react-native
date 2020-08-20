@@ -1,0 +1,10 @@
+{
+  extends: ["config:base"],
+  packageRules: [
+    // I don't want to update TypeScript since it's not yet supported by ESLint
+    {
+      packageNames: ["typescript"],
+      allowedVersions: "<4",
+    },
+  ],
+}
