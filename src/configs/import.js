@@ -1,16 +1,14 @@
-const defaultConfig = require("./index");
+/**
+ * This config is using eslint-plugin-import
+ */
 
 module.exports = {
-  ...defaultConfig,
   extends: [
-    ...defaultConfig.extends,
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
   ],
   rules: {
-    ...defaultConfig.rules,
-    // Disable those rules since TypeScript already does its checks
     "import/default": "off",
     "import/no-unresolved": "off",
     "import/namespace": "off",

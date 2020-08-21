@@ -8,7 +8,5 @@
         }
       }
     ]
-  ],
-  "sourceMaps": "inline",
-  "retainLines": true
+  ]
 }

@@ -35,17 +35,9 @@ It's really complete and works great.
 
 Enabling this simple configuration is the same as enabling only `@react-native-community`.
 
-## Recommended configuration
+## Available rules
 
-Aka
-
-```json
-{
-  "extends": ["@dbenfouzari/react-native/recommended"]
-}
-```
-
-This configuration enables previous configuration, but also implements another plugin : `eslint-plugin-import`.
+### `eslint-plugin-import`
 
 I really love this one, because it makes things clean and tidy.
 
@@ -77,6 +69,22 @@ It will, in order :
 Benefits are multiple : it will avoid many conflits caused by a committer that imported the same, but in another place, it makes things tidy and easy to find if you should.
 
 I personnaly enable it on every project I work on, and I can't do without it.
+
+### `eslint-plugin-i18next`
+
+It's `off` by default.
+You can enable it by doing
+
+```json
+{
+  "extends": ["@dbenfouzari/react-native"],
+  "rules": {
+    "i18next/no-literal-string": ["error"]
+  }
+}
+```
+
+The configuration is pretty basic, but I may improve it in the future.
 
 ## Prettier
 

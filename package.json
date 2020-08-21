@@ -1,6 +1,6 @@
 {
   "name": "@dbenfouzari/eslint-config-react-native",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "React-Native ESLint config",
   "main": "lib/index.js",
   "repository": {
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/dbenfouzari/eslint-config-react-native",
   "scripts": {
-    "build": "babel --quiet --out-dir lib index.js recommended.js",
+    "build": "rimraf lib && babel --source-maps --quiet src --out-dir lib",
     "test": "jest"
   },
   "peerDependencies": {
@@ -24,14 +24,20 @@
   },
   "dependencies": {
     "@react-native-community/eslint-config": "2.0.0",
+    "eslint-plugin-i18next": "^4.5.0",
     "eslint-plugin-import": "2.22.0"
   },
   "devDependencies": {
     "@babel/cli": "7.10.5",
     "@babel/core": "7.11.4",
     "@babel/preset-env": "7.11.0",
+    "@react-native-community/eslint-config": "2.0.0",
     "eslint": "7.7.0",
+    "eslint-plugin-i18next": "^4.5.0",
+    "eslint-plugin-import": "2.22.0",
     "jest": "26.4.1",
+    "react": "^16.13.1",
+    "rimraf": "^3.0.2",
     "typescript": "3.9.7"
   },
   "browserslist": "> 0.25%, not dead"
