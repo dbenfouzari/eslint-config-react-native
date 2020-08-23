@@ -887,10 +887,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dbenfouzari/eslint-plugin-react-native@1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@dbenfouzari/eslint-plugin-react-native/-/eslint-plugin-react-native-1.0.3.tgz#e1cca082848fb8d8307d2c127d9220f7befbe13a"
-  integrity sha512-gMvuud7k9zNVSORK3REFbnXRYcn1MhiUz/EzhfMVyZgfiMleFHsHi1+zbUtFPeo4izNEZ9R100uX4BRu1AZPqg==
+"@dbenfouzari/eslint-plugin-react-native@1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@dbenfouzari/eslint-plugin-react-native/-/eslint-plugin-react-native-1.0.4.tgz#aace05ce25d9598741db5873df947fe68a544c41"
+  integrity sha512-2V3Vqb6adeqAHNI4Z9V62JGIj5VAhLlSySpYyVIhSGJAFemzgU7QPNDfe8LIlC15dpLjzGnwnSpXi0ICg1+exA==
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
