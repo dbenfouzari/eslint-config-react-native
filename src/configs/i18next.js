@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ["@dbenfouzari/react-native"],
   rules: {
-    "@dbenfouzari/react-native/no-child-string": ["error"],
+    "@dbenfouzari/react-native/no-child-string": "off",
   },
 };
