@@ -1,5 +1,10 @@
 {
   extends: ["config:base"],
+  prHourlyLimit: 0,
+  assignAutomerge: true,
+  automerge: true,
+  assignees: ["dbenfouzari"],
+  rebaseWhen: "behind-base-branch",
   packageRules: [
     // I don't want to update TypeScript since it's not yet supported by ESLint
     {
