@@ -1,4 +1,6 @@
 module.exports = {
-  plugins: ["i18next"],
-  extends: ["plugin:i18next/recommended"],
+  plugins: ["@dbenfouzari/react-native"],
+  rules: {
+    "@dbenfouzari/react-native/no-child-string": ["error"],
+  },
 };

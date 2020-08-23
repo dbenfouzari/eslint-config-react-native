@@ -6,9 +6,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "devDependencies": {
-    "@dbenfouzari/eslint-config-react-native": "file:..",
+    "@dbenfouzari/eslint-config-react-native": "../",
     "eslint": "7.7.0",
-    "typescript": "3.9.7",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "typescript": "3.9.7"
   }
 }

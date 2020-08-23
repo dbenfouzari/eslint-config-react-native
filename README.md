@@ -70,7 +70,7 @@ Benefits are multiple : it will avoid many conflits caused by a committer that i
 
 I personnaly enable it on every project I work on, and I can't do without it.
 
-### `eslint-plugin-i18next`
+### `@dbenfouzari/eslint-plugin-react-native`
 
 It's `off` by default.
 You can enable it by doing
@@ -79,7 +79,7 @@ You can enable it by doing
 {
   "extends": ["@dbenfouzari/react-native"],
   "rules": {
-    "i18next/no-literal-string": ["error"]
+    "@dbenfouzari/react-native/no-child-string": ["error"]
   }
 }
 ```

@@ -1,2 +1,6 @@
 example/
 .babelrc
+tests/
+renovate.json5
+src/
+.github

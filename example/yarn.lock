@@ -93,8 +93,17 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@dbenfouzari/eslint-config-react-native@file:..":
-  version "1.0.5"
+"@dbenfouzari/eslint-config-react-native@../":
+  version "1.1.0"
+  dependencies:
+    "@dbenfouzari/eslint-plugin-react-native" "1.0.0"
+    "@react-native-community/eslint-config" "2.0.0"
+    eslint-plugin-import "2.22.0"
+
+"@dbenfouzari/eslint-plugin-react-native@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dbenfouzari/eslint-plugin-react-native/-/eslint-plugin-react-native-1.0.0.tgz#587af386bbd62eb324408227df027f5fa6d5ea90"
+  integrity sha512-bxt5fygrLdqhrlDNIUwzKTW2RL7Tafa3QlNgZaeNO3W6N3IKHxww74SYR/Mmz6UUySnGgU2+3Na/bQbfzqmcew==
 
 "@react-native-community/eslint-config@2.0.0":
   version "2.0.0"
@@ -513,13 +522,6 @@ eslint-plugin-flowtype@2.50.3:
   integrity sha512-X+AoKVOr7Re0ko/yEXyM5SSZ0tazc6ffdIOocp2fFUlWoDt7DV0Bz99mngOkAFLOAWjqRA5jPwqUCbrx13XoxQ==
   dependencies:
     lodash "^4.17.10"
-
-eslint-plugin-i18next@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-i18next/-/eslint-plugin-i18next-4.5.0.tgz#fd22baf05427c8a7c622b027e4e54fc4b23fbcd2"
-  integrity sha512-HDl5ydddzv9t7d9b5TAHp+XGukpKIqMMTv+/x9uvyqVGHDoJRt1JqDPCQRXFWc9F9JlpvJXydkoD2OyI/w2MHQ==
-  dependencies:
-    requireindex "~1.1.0"
 
 eslint-plugin-import@2.22.0:
   version "2.22.0"
@@ -1269,11 +1271,6 @@ regexpp@^3.0.0, regexpp@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-3.1.0.tgz#206d0ad0a5648cffbdb8ae46438f3dc51c9f78e2"
   integrity sha512-ZOIzd8yVsQQA7j8GCSlPGXwg5PfmA1mrq0JP4nGhh54LaKN3xdai/vHUDu74pKwV8OxseMS65u2NImosQcSD0Q==
-
-requireindex@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
-  integrity sha1-5UBLgVV+91225JxacgBIk/4D4WI=
 
 resolve-from@^4.0.0:
   version "4.0.0"

@@ -15,7 +15,7 @@ describe("Normal config", () => {
       {
         filePath: path.resolve(invalidTs),
         messages: expect.any(Array),
-        errorCount: 9,
+        errorCount: 10,
         warningCount: 3,
         fixableErrorCount: 5,
         fixableWarningCount: 3,
