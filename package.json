@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.12.1",
-    "@babel/core": "7.12.1",
+    "@babel/core": "7.12.3",
     "@babel/preset-env": "7.12.1",
     "@react-native-community/eslint-config": "2.0.0",
     "eslint": "7.11.0",
