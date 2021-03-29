@@ -28,8 +28,8 @@
     "eslint-plugin-import": "2.22.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.13.10",
-    "@babel/core": "7.13.13",
+    "@babel/cli": "7.13.14",
+    "@babel/core": "7.13.14",
     "@babel/preset-env": "7.13.12",
     "@react-native-community/eslint-config": "2.0.0",
     "eslint": "7.23.0",
