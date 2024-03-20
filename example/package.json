@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@dbenfouzari/eslint-config-react-native": "../",
-    "eslint": "7.31.0",
+    "eslint": "7.32.0",
     "prettier": "3.2.5",
     "typescript": "3.9.10"
   }
